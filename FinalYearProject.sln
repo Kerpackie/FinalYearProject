@@ -1,0 +1,81 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalYearProject.AppHost", "Source\Aspire\src\FinalYearProject.AppHost\FinalYearProject.AppHost.csproj", "{55AE0B35-20CF-4249-A4AC-041F03E9C6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalYearProject.ServiceDefaults", "Source\Aspire\src\FinalYearProject.ServiceDefaults\FinalYearProject.ServiceDefaults.csproj", "{26E5B3FA-3FFF-40A4-8C2F-40AF4B7F7B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalYearProject.ApiService", "Source\Aspire\src\FinalYearProject.ApiService\FinalYearProject.ApiService.csproj", "{6C9A9872-89A9-4C7B-887A-9B036998D6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalYearProject.Web", "Source\Aspire\src\FinalYearProject.Web\FinalYearProject.Web.csproj", "{44907C23-1F5D-4A79-A2AC-C1D22F9440E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalYearProject.Tests", "Source\Aspire\src\FinalYearProject.Tests\FinalYearProject.Tests.csproj", "{2A54BF2A-B70F-49CF-ACCA-36C512E61B6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A25FFBBF-4C27-408C-9105-EAFFFC9B5672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{4F467DA9-ED9C-484D-96F6-45C6B59EFA33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Research", "Research", "{93FCFA01-BFD5-469D-9F16-11BF829EC08C}"
+	ProjectSection(SolutionItems) = preProject
+		Research\WhatIs.md = Research\WhatIs.md
+		Research\UsefulLinks.md = Research\UsefulLinks.md
+		Research\ProposedTitle.md = Research\ProposedTitle.md
+		Research\Abstract.md = Research\Abstract.md
+		Research\NameIdeas.md = Research\NameIdeas.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsefulStuff", "UsefulStuff", "{78016D1C-9C14-4048-8717-942E94E39356}"
+	ProjectSection(SolutionItems) = preProject
+		UsefulStuff\DotNetAndEFCommands.md = UsefulStuff\DotNetAndEFCommands.md
+		UsefulStuff\UsefulDockerCommands.md = UsefulStuff\UsefulDockerCommands.md
+		UsefulStuff\UsefulGitCommands.md = UsefulStuff\UsefulGitCommands.md
+		UsefulStuff\UsefulLinuxCommands.md = UsefulStuff\UsefulLinuxCommands.md
+		UsefulStuff\UsefulMarkdownSyntax.md = UsefulStuff\UsefulMarkdownSyntax.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CE7C6BB9-0661-4346-AE18-D6AF1B89F33F}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\MVP.md = Docs\MVP.md
+		Docs\UML\Components.md = Docs\UML\Components.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55AE0B35-20CF-4249-A4AC-041F03E9C6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AE0B35-20CF-4249-A4AC-041F03E9C6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AE0B35-20CF-4249-A4AC-041F03E9C6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AE0B35-20CF-4249-A4AC-041F03E9C6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E5B3FA-3FFF-40A4-8C2F-40AF4B7F7B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E5B3FA-3FFF-40A4-8C2F-40AF4B7F7B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E5B3FA-3FFF-40A4-8C2F-40AF4B7F7B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E5B3FA-3FFF-40A4-8C2F-40AF4B7F7B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9A9872-89A9-4C7B-887A-9B036998D6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9A9872-89A9-4C7B-887A-9B036998D6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9A9872-89A9-4C7B-887A-9B036998D6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9A9872-89A9-4C7B-887A-9B036998D6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44907C23-1F5D-4A79-A2AC-C1D22F9440E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44907C23-1F5D-4A79-A2AC-C1D22F9440E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44907C23-1F5D-4A79-A2AC-C1D22F9440E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44907C23-1F5D-4A79-A2AC-C1D22F9440E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A54BF2A-B70F-49CF-ACCA-36C512E61B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A54BF2A-B70F-49CF-ACCA-36C512E61B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A54BF2A-B70F-49CF-ACCA-36C512E61B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A54BF2A-B70F-49CF-ACCA-36C512E61B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F467DA9-ED9C-484D-96F6-45C6B59EFA33} = {A25FFBBF-4C27-408C-9105-EAFFFC9B5672}
+		{6C9A9872-89A9-4C7B-887A-9B036998D6CA} = {4F467DA9-ED9C-484D-96F6-45C6B59EFA33}
+		{55AE0B35-20CF-4249-A4AC-041F03E9C6FC} = {4F467DA9-ED9C-484D-96F6-45C6B59EFA33}
+		{26E5B3FA-3FFF-40A4-8C2F-40AF4B7F7B93} = {4F467DA9-ED9C-484D-96F6-45C6B59EFA33}
+		{2A54BF2A-B70F-49CF-ACCA-36C512E61B6D} = {4F467DA9-ED9C-484D-96F6-45C6B59EFA33}
+		{44907C23-1F5D-4A79-A2AC-C1D22F9440E9} = {4F467DA9-ED9C-484D-96F6-45C6B59EFA33}
+	EndGlobalSection
+EndGlobal

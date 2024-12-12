@@ -1,0 +1,5 @@
+# Abstract
+
+This project aims to design and develop a lightweight container orchestrator using C#, as part of an educational Final Year Project (FYP). The orchestrator will focus on core functionalities such as container lifecycle management, scheduling, networking, and monitoring, tailored for a distributed system environment. By leveraging the .NET ecosystem and Docker APIs, the project seeks to provide a modular and extensible architecture that supports multi-node clusters while maintaining simplicity and resource efficiency.
+
+The system will feature an intuitive REST API for managing containers and nodes, with a focus on implementing fault tolerance, scalability, and basic self-healing capabilities. The development process will emphasize learning and demonstrating key concepts of container orchestration, distributed systems, and software engineering principles. 
